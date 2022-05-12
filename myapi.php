@@ -1,6 +1,6 @@
 <?php
 // Connect to database
-$mysqli = new mysqli("localhost","root","","weatherapp");
+$mysqli = new mysqli("bofuu3qpmnf3esgbplbn-mysql.services.clever-cloud.com","unrfazw50hmazg3l","pQid24GhE0IHOZW5rhcu","bofuu3qpmnf3esgbplbn");
 if ($mysqli -> connect_error) {
 echo "Failed to connect to MySQL: " . $mysqli -> connect_error;
 exit();
